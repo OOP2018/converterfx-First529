@@ -51,6 +51,8 @@ public class ConverterController {
 	public void handleClear(ActionEvent event) {
 		textfield1.clear();
 		textfield2.clear();
+		textfield1.setStyle("-fx-text-fill: black;");
+		textfield2.setStyle("-fx-text-fill: black;");
 	}
 
 	@FXML
